@@ -22,6 +22,9 @@ body nav #main-title {
   font-weight: 400;
   padding: 8px 16px;
 }
+body nav #initials {
+  color: rgb(254, 102, 0);
+}
 body section#home .heading-center {
   letter-spacing: 4px;
   text-align: center;
@@ -32,7 +35,7 @@ body section#home .heading-center {
 }
 body section#home .black-box {
   color: white;
-  background-color: black;
+  background-color: rgb(254, 102, 0);
   padding: 8px 16px;
   opacity: 0.75;
 }
