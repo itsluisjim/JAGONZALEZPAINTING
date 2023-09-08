@@ -4,7 +4,7 @@
 }
 
 $small-screens: 576px;
-$medium-screens: 1024px;
+$medium-screens: 1025px;
 $large-screens: 3000px;
 
 $orange-highlight: rgb(254, 102, 0);
@@ -38,6 +38,54 @@ body {
       color: $orange-highlight;
     }
   }
+  section#services {
+    width: 100vw;
+    height: auto;
+
+    h1 {
+      color: $orange-highlight;
+    }
+
+    .services--card-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2rem;
+
+      .card {
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.3);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+
+          .service-name {
+            color: white;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
   section#home {
     .heading-center {
       letter-spacing: 4px;
@@ -72,6 +120,18 @@ body {
     }
     .heading-last-name {
       display: none;
+    }
+  }
+  section#services {
+    padding: 25px;
+
+    .services--card-container {
+      gap: 10px;
+
+      .card {
+        width: 100%;
+        height: 150px;
+      }
     }
   }
   section#about {
@@ -126,6 +186,18 @@ body {
       width: 500px;
     }
   }
+  section#services {
+    padding: 50px;
+
+    .services--card-container {
+      gap: 10px;
+
+      .card {
+        width: 45%;
+        height: 200px;
+      }
+    }
+  }
   section#about {
     padding: 50px;
     width: 100vw;
@@ -174,6 +246,23 @@ body {
       object-fit: cover;
       width: 100vw;
       height: 100vh;
+    }
+  }
+
+  section#services {
+    padding: 50px;
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    .services--card-container {
+      gap: 20px;
+
+      .card {
+        width: 45%;
+        height: 200px;
+      }
     }
   }
 

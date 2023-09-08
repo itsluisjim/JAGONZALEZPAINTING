@@ -27,6 +27,48 @@ body nav #main-title {
 body nav #initials {
   color: rgb(254, 102, 0);
 }
+body section#services {
+  width: 100vw;
+  height: auto;
+}
+body section#services h1 {
+  color: rgb(254, 102, 0);
+}
+body section#services .services--card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+body section#services .services--card-container .card {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+body section#services .services--card-container .card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section#services .services--card-container .card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body section#services .services--card-container .card .overlay .service-name {
+  color: white;
+  font-size: 24px;
+}
 body section#home .heading-center {
   letter-spacing: 4px;
   text-align: center;
@@ -58,6 +100,16 @@ body section#home .black-box {
   section#home .heading-last-name {
     display: none;
   }
+  section#services {
+    padding: 25px;
+  }
+  section#services .services--card-container {
+    gap: 10px;
+  }
+  section#services .services--card-container .card {
+    width: 100%;
+    height: 150px;
+  }
   section#about {
     padding: 25px;
     width: 100vw;
@@ -79,7 +131,7 @@ body section#home .black-box {
     color: rgb(254, 102, 0);
   }
 }
-@media (min-width: 576px) and (max-width: 1024px) {
+@media (min-width: 576px) and (max-width: 1025px) {
   nav #nav-links {
     margin-left: auto;
     display: flex;
@@ -103,6 +155,16 @@ body section#home .black-box {
   section#home .heading-center {
     width: 500px;
   }
+  section#services {
+    padding: 50px;
+  }
+  section#services .services--card-container {
+    gap: 10px;
+  }
+  section#services .services--card-container .card {
+    width: 45%;
+    height: 200px;
+  }
   section#about {
     padding: 50px;
     width: 100vw;
@@ -124,7 +186,7 @@ body section#home .black-box {
     color: rgb(254, 102, 0);
   }
 }
-@media (min-width: 1024px) and (max-width: 3000px) {
+@media (min-width: 1025px) and (max-width: 3000px) {
   nav #nav-links {
     margin-left: auto;
     display: flex;
@@ -145,6 +207,19 @@ body section#home .black-box {
        object-fit: cover;
     width: 100vw;
     height: 100vh;
+  }
+  section#services {
+    padding: 50px;
+  }
+  section#services h1 {
+    margin-top: 20px;
+  }
+  section#services .services--card-container {
+    gap: 20px;
+  }
+  section#services .services--card-container .card {
+    width: 45%;
+    height: 200px;
   }
   section#about {
     padding: 125px 50px 0;
