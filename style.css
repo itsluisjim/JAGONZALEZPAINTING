@@ -5,8 +5,11 @@
 
 body {
   margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
 }
 body nav {
+  z-index: 1;
   position: fixed;
   display: flex;
   background-color: white;
@@ -18,7 +21,6 @@ body nav #main-title {
   color: black;
   letter-spacing: 4px;
   text-decoration: none;
-  font-size: 15px;
   font-weight: 400;
   padding: 8px 16px;
 }
@@ -56,6 +58,26 @@ body section#home .black-box {
   section#home .heading-last-name {
     display: none;
   }
+  section#about {
+    padding: 25px;
+    width: 100vw;
+    height: 100vh;
+  }
+  section#about h1 {
+    color: rgb(254, 102, 0);
+  }
+  section#about img#headshot {
+    width: 100%;
+  }
+  section#about #image-caption {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(131, 130, 130);
+  }
+  section#about p span {
+    font-weight: bold;
+    color: rgb(254, 102, 0);
+  }
 }
 @media (min-width: 576px) and (max-width: 1024px) {
   nav #nav-links {
@@ -81,6 +103,26 @@ body section#home .black-box {
   section#home .heading-center {
     width: 500px;
   }
+  section#about {
+    padding: 50px;
+    width: 100vw;
+    height: 100vh;
+  }
+  section#about h1 {
+    color: rgb(254, 102, 0);
+  }
+  section#about img#headshot {
+    width: 100%;
+  }
+  section#about #image-caption {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(131, 130, 130);
+  }
+  section#about p span {
+    font-weight: bold;
+    color: rgb(254, 102, 0);
+  }
 }
 @media (min-width: 1024px) and (max-width: 3000px) {
   nav #nav-links {
@@ -103,5 +145,46 @@ body section#home .black-box {
        object-fit: cover;
     width: 100vw;
     height: 100vh;
+  }
+  section#about {
+    padding: 125px 50px 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 60px);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+  section#about h1 {
+    color: rgb(254, 102, 0);
+  }
+  section#about img#headshot {
+    width: 100%;
+  }
+  section#about #image-caption {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(131, 130, 130);
+  }
+  section#about p span {
+    font-weight: bold;
+    color: rgb(254, 102, 0);
+  }
+  section#about #headshot {
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    grid-area: 1/1/10/4;
+  }
+  section#about #image-caption {
+    grid-area: 10/1/11/4;
+  }
+  section#about #about-heading {
+    grid-area: 2/4/3/6;
+    align-self: end;
+  }
+  section#about #about-text {
+    grid-area: 3/4/8/7;
   }
 }/*# sourceMappingURL=style.css.map */
