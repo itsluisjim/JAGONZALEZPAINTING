@@ -41,6 +41,9 @@ body section#services .services--card-container {
   justify-content: center;
   margin-top: 2rem;
 }
+body section#services .services--card-container .card:hover img {
+  transform: scale(1.1);
+}
 body section#services .services--card-container .card {
   border-radius: 15px;
   overflow: hidden;
@@ -51,6 +54,7 @@ body section#services .services--card-container .card img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: transform 0.3s ease;
 }
 body section#services .services--card-container .card .overlay {
   position: absolute;
