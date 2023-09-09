@@ -90,7 +90,9 @@ body {
       }
     }
   }
-
+  section#about {
+    background-color: rgb(245, 245, 245);
+  }
   section#home {
     .heading-center {
       letter-spacing: 4px;
@@ -107,8 +109,59 @@ body {
       opacity: 0.75;
     }
   }
+  section#contact {
+    width: 100vw;
+
+    h1 {
+      color: $orange-highlight;
+    }
+    .contact-us-info {
+      display: flex;
+
+      .TUIr4b {
+        font-family: inherit;
+      }
+
+      .contact-left-side {
+        width: 100%;
+
+        a {
+          margin: 10px 0;
+          display: block;
+          color: #696969;
+        }
+
+        .business-hours {
+          span.day {
+            font-weight: bold;
+          }
+          span.closed {
+            color: #ff0000;
+          }
+        }
+      }
+    }
+  }
 }
+
 @media screen and (max-width: $small-screens) {
+  body {
+    .BzuSBc {
+      padding: 10px;
+  
+      .DqVnFf {
+        right: 20px;
+  
+        .midlZd {
+          margin-right: 0;
+        }
+  
+        .DdxEve {
+          display: none;
+        }
+      }
+    }
+  }
   nav {
     #nav-links {
       display: none;
@@ -142,7 +195,6 @@ body {
   section#about {
     padding: 25px;
     width: 100vw;
-    height: 100vh;
 
     h1 {
       color: $orange-highlight;
@@ -158,6 +210,17 @@ body {
     p span {
       font-weight: bold;
       color: $orange-highlight;
+    }
+  }
+  section#contact {
+    padding: 25px;
+
+    .contact-us-info {
+      flex-direction: column;
+
+      .contact-right-side {
+        display: none;
+      }
     }
   }
 }
@@ -206,7 +269,6 @@ body {
   section#about {
     padding: 50px;
     width: 100vw;
-    height: 100vh;
 
     h1 {
       color: $orange-highlight;
@@ -222,6 +284,18 @@ body {
     p span {
       font-weight: bold;
       color: $orange-highlight;
+    }
+  }
+  section#contact {
+    padding: 50px;
+
+    .contact-us-info {
+      flex-direction: column;
+
+      
+      .contact-right-side {
+        display: none;
+      }
     }
   }
 }
@@ -285,9 +359,6 @@ body {
     h1 {
       color: $orange-highlight;
     }
-    img#headshot {
-      width: 100%;
-    }
     #image-caption {
       margin-top: 1rem;
       text-align: center;
@@ -297,10 +368,15 @@ body {
       font-weight: bold;
       color: $orange-highlight;
     }
-    #headshot {
-      height: 100%;
-      object-fit: contain;
+    .img-container {
       grid-area: 1 / 1 / 10 / 4;
+      display: flex;
+      justify-content: center;
+
+      img {
+        object-fit: contain;
+        height: 100%;
+      }
     }
     #image-caption {
       grid-area: 10 / 1 / 11 / 4;
@@ -311,6 +387,30 @@ body {
     }
     #about-text {
       grid-area: 3 / 4 / 8 / 7;
+    }
+  }
+
+  section#contact {
+    padding: 70px 50px 50px;
+
+    width: 100vw;//
+
+    h1 {
+      color: $orange-highlight;
+    }
+
+    .contact-us-info {
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+
+      .TUIr4b {
+        display: none;
+      }
+
+    }
+    .contact-right-side {
+      width: 100%;
     }
   }
 }
