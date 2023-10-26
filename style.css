@@ -17,6 +17,20 @@ body nav {
   padding: 8px 16px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+body nav #nav-links {
+  margin-right: 1%;
+}
+body nav #about-link {
+  white-space: nowrap;
+}
+body nav #language-selector {
+  font-size: 15px;
+  padding: 2px 5px;
+  border: 1px solid lightgray;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
 body nav #main-title {
   color: black;
   letter-spacing: 4px;
@@ -26,6 +40,12 @@ body nav #main-title {
 }
 body nav #initials {
   color: rgb(254, 102, 0);
+}
+body nav .language-option-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 body section#services {
   width: 100vw;
@@ -133,6 +153,9 @@ body section#contact .contact-us-info .contact-left-side .business-hours span.cl
   nav #nav-links {
     display: none;
   }
+  nav .language-option-container {
+    margin-left: auto;
+  }
   section#home img#home-image-default {
     display: none;
   }
@@ -190,11 +213,12 @@ body section#contact .contact-us-info .contact-left-side .business-hours span.cl
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 0;
   }
   nav #nav-links a {
     color: black;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 8px 12px;
   }
   section#home img#home-image-default {
     display: none;

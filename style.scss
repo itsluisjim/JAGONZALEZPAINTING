@@ -25,6 +25,21 @@ body {
     padding: 8px 16px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    
+    #nav-links {
+      margin-right: 1%;
+    }
+
+    #about-link {
+      white-space: nowrap;
+    }
+
+    #language-selector {
+      font-size: 15px;
+      padding: 2px 5px;
+      border: 1px solid lightgray;
+      appearance: none;
+    }
 
     #main-title {
       color: black;
@@ -36,6 +51,13 @@ body {
 
     #initials {
       color: $orange-highlight;
+    }
+
+    .language-option-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
     }
   }
   section#services {
@@ -166,6 +188,9 @@ body {
     #nav-links {
       display: none;
     }
+    .language-option-container {
+      margin-left: auto;
+    }
   }
   section#home {
     img#home-image-default {
@@ -233,10 +258,12 @@ body {
       justify-content: center;
       align-items: center;
 
+      margin-right: 0;
+
       a {
         color: black;
         text-decoration: none;
-        padding: 8px 16px;
+        padding: 8px 12px;
       }
     }
   }
