@@ -1,0 +1,94 @@
+{
+  "Home": {
+    "en": "Home",
+    "es": "Inicio"
+  },
+  "Services": {
+    "en": "Services",
+    "es": "Servicios"
+  },
+  "About": {
+    "en": "About",
+    "es": "Sobre nosotros"
+  },
+  "Contact": {
+    "en": "Contact",
+    "es": "Contactar"
+  },
+  "services-intro": {
+    "en": "We are a versatile and skilled painting services business that goes beyond just painting. Our expertise extends to interior and exterior painting, carpentry work, precise tape and float applications, texture finishes, and thorough pressure washing. Whether you need a fresh coat of paint, structural enhancements, or a complete transformation, we're your go-to partner for all your property improvement needs.",
+    "es": "Somos una empresa de servicios de pintura versátil y especializada que va más allá de la pintura. Nuestra experiencia se extiende a la pintura de interiores y exteriores, trabajos de carpintería, aplicaciones precisas de cinta y flotador, acabados texturizados y lavado minucioso a presión. Ya sea que necesite una nueva capa de pintura, mejoras estructurales o una transformación completa, somos su socio ideal para todas sus necesidades de mejora de propiedad."
+  },
+  "service-one": {
+    "en": "Interior Painting",
+    "es": "Pintura Interior"
+  },
+  "service-two": {
+    "en": "Exterior Painting",
+    "es": "Pintura Exterior"
+  },
+  "service-three": {
+    "en": "Carpentry",
+    "es": "Carpintería"
+  },
+  "service-four": {
+    "en": "Tape and Float",
+    "es": "Cinta y flotador"
+  },
+  "service-five": {
+    "en": "Texture",
+    "es": "Textura"
+  },
+  "service-six": {
+    "en": "Pressure Washing",
+    "es": "Lavado a presión"
+  },
+  "owner-message": {
+    "en": "Welcome to **J. A.** Gonzalez Painting Services, your trusted family-owned painting business right here in Bryan, Texas! As a passionate start-up venture, we take immense pride in delivering top-notch painting services tailored to your unique needs. Our dedicated team combines years of experience with a fresh and creative approach to transform your spaces into works of art. Whether you're looking to refresh your home's interior, revive your commercial space, or add a splash of color to your surroundings, we've got you covered. At **J. A.** Gonzalez Painting Services, we not only promise impeccable craftsmanship but also a commitment to delivering a personalized, friendly, and affordable experience that you won't find elsewhere. Let us bring vibrancy and beauty to your world – contact us today for a estimate and let the painting magic begin!",
+    "es": "¡Bienvenido a **J. A.** Gonzalez Painting, su empresa familiar de pintura de confianza aquí en Bryan, Texas! Como empresa emergente apasionada, nos enorgullecemos de brindar servicios de pintura de primer nivel adaptados a sus necesidades únicas. Nuestro dedicado equipo combina años de experiencia con un enfoque fresco y creativo para transformar sus espacios en obras de arte. Ya sea que esté buscando renovar el interior de su hogar, revitalizar su espacio comercial o agregar un toque de color a su entorno, lo tenemos cubierto. En **J. A.** Gonzalez Painting, no solo prometemos una artesanía impecable sino también el compromiso de brindar una experiencia personalizada, amigable y asequible que no encontrará en ningún otro lugar. ¡Permítanos traer vitalidad y belleza a su mundo! Contáctenos hoy para obtener un presupuesto y ¡deje que comience la magia de la pintura!"
+  },
+  "owner-name": {
+    "en": "Jorge Gonzalez (Owner)",
+    "es": "Jorge Gonzalez (Dueño)"
+  },
+  "contact-us-message": {
+    "en": "We're committed to providing exceptional service and solutions tailored to your unique needs. Our team is here to assist you every step of the way. Whether you have questions, require assistance, or are seeking innovative solutions, don't hesitate to reach out to us. Your satisfaction is our top priority, and we're ready to exceed your expectations. Contact us today, and let's embark on a journey of excellence together.",
+    "es": "Estamos comprometidos a brindar servicios y soluciones excepcionales adaptado a sus necesidades únicas. Nuestro equipo está aquí para ayudarle en cada paso del camino. Si tiene preguntas, necesita ayuda o está buscando soluciones innovadoras, no dude en comunicarse con nosotros. Su satisfacción es nuestra principal prioridad y estamos listos para superar tus expectativas. Contáctenos hoy y embarquemos en un viaje de excelencia juntos."
+  },
+  "business-hours": {
+    "en": "Business Hours:",
+    "es": "Horario de Trabajo:"
+  },
+  "monday": {
+    "en": "Monday:",
+    "es": "Lunes"
+  },
+  "tuesday": {
+    "en": "Tuesday:",
+    "es": "Martes:"
+  },
+  "wednesday": {
+    "en": "Wednesday:",
+    "es": "Miércoles:"
+  },
+  "thursday": {
+    "en": "Thursday:",
+    "es": "Jueves:"
+  },
+  "friday": {
+    "en": "Friday:",
+    "es": "Viernes:"
+  },
+  "saturday": {
+    "en": "Saturday:",
+    "es": "Sábado:"
+  },
+  "sunday": {
+    "en": "Sunday:",
+    "es": "Domingo:"
+  },
+  "closed-label": {
+    "en": "Closed",
+    "es": "Cerrado"
+  }
+}
