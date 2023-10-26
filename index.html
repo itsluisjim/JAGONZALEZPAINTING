@@ -22,10 +22,16 @@
         ><b id="initials">J.A.</b> Gonzalez Painting</a
       >
       <div id="nav-links">
-        <div><a href="#home">Home</a></div>
-        <div><a href="#services">Services</a></div>
-        <div><a href="#about">About</a></div>
-        <div><a href="#contact">Contact</a></div>
+        <div><a href="#home" data-translate="Home"></a></div>
+        <div><a href="#services" data-translate="Services"></a></div>
+        <div><a href="#about" data-translate="About" id="about-link"></a></div>
+        <div><a href="#contact" data-translate="Contact"></a></div>
+      </div>
+      <div class="language-option-container">
+        <select name="language-selector" id="language-selector">
+          <option value="en" selected>EN 🇺🇸</option>
+          <option value="es">ES 🇲🇽</option>
+        </select>
       </div>
     </nav>
     <section id="home">
@@ -47,74 +53,53 @@
       </div>
     </section>
     <section id="services">
-      <h1 class="services--heading">Services</h1>
+      <h1 class="services--heading" data-translate="Services"></h1>
       <hr />
 
-      <p>
-        We are a versatile and skilled painting services business that goes
-        beyond just painting. Our expertise extends to interior and exterior
-        painting, carpentry work, precise tape and float applications, texture
-        finishes, and thorough pressure washing. Whether you need a fresh coat
-        of paint, structural enhancements, or a complete transformation, we're
-        your go-to partner for all your property improvement needs.
-      </p>
+      <p data-translate="services-intro"></p>
 
       <div class="services--card-container">
         <div class="card">
           <img src="./images/painting-wall.jpg" alt="Service Image" />
           <div class="overlay">
-            <h2 class="service-name">Interior Painting</h2>
+            <h2 class="service-name" data-translate="service-one"></h2>
           </div>
         </div>
         <div class="card">
           <img src="./images/exterior.jpg" alt="Service Image" />
           <div class="overlay">
-            <h2 class="service-name">Exterior Painting</h2>
+            <h2 class="service-name" data-translate="service-two"></h2>
           </div>
         </div>
         <div class="card">
           <img src="./images/carpentry.jpg" alt="Service Image" />
           <div class="overlay">
-            <h2 class="service-name">Carpentry</h2>
+            <h2 class="service-name" data-translate="service-three"></h2>
           </div>
         </div>
         <div class="card">
           <img src="./images/drywall.jpg" alt="Service Image" />
           <div class="overlay">
-            <h2 class="service-name">Tape and Float</h2>
+            <h2 class="service-name" data-translate="service-four"></h2>
           </div>
         </div>
         <div class="card">
           <img src="./images/texture.jpg" alt="Service Image" />
           <div class="overlay">
-            <h2 class="service-name">Texture</h2>
+            <h2 class="service-name" data-translate="service-five"></h2>
           </div>
         </div>
         <div class="card">
           <img src="./images/power-washing.jpg" alt="Service Image" />
           <div class="overlay">
-            <h2 class="service-name">Pressure Washing</h2>
+            <h2 class="service-name" data-translate="service-six"></h2>
           </div>
         </div>
       </div>
     </section>
     <section id="about" class="parent">
-      <h1 id="about-heading">About</h1>
-      <p id="about-text">
-        Welcome to <span>J. A.</span> Gonzalez Painting Services, your trusted
-        family-owned painting business right here in Bryan, Texas! As a
-        passionate start-up venture, we take immense pride in delivering
-        top-notch painting services tailored to your unique needs. Our dedicated
-        team combines years of experience with a fresh and creative approach to
-        transform your spaces into works of art. Whether you're looking to
-        refresh your home's interior, revive your commercial space, or add a
-        splash of color to your surroundings, we've got you covered. At
-        <span>J. A.</span> Gonzalez Painting Services, we not only promise
-        impeccable craftsmanship but also a commitment to delivering a
-        personalized, friendly, and affordable experience that you won't find
-        elsewhere. Let us bring vibrancy and beauty to your world – contact us
-        today for a estimate and let the painting magic begin!
-      </p>
+      <h1 id="about-heading" data-translate="About"></h1>
+      <p id="about-text" data-translate="owner-message"></p>
       <div class="img-container">
         <img
           src="./images/about-img.png"
@@ -122,22 +107,14 @@
           alt="headshot of the owner of J.A. Gonzalez Painting"
         />
       </div>
-      <div id="image-caption">Jorge Gonzalez (Owner)</div>
+      <div id="image-caption" data-translate="owner-name"></div>
     </section>
     <section id="contact">
       <div class="contact-us-info">
         <div class="contact-left-side">
-          <h1>Contact Us</h1>
+          <h1 data-translate="Contact"></h1>
 
-          <p>
-            We're committed to providing exceptional service and solutions
-            tailored to your unique needs. Our team is here to assist you every
-            step of the way. Whether you have questions, require assistance, or
-            are seeking innovative solutions, don't hesitate to reach out to us.
-            Your satisfaction is our top priority, and we're ready to exceed
-            your expectations. Contact us today, and let's embark on a journey
-            of excellence together.
-          </p>
+          <p data-translate="contact-us-message"></p>
 
           <div class="location-phone-email">
             <p>
@@ -154,19 +131,19 @@
             >
           </div>
           <div class="business-hours">
-            <h3>Business Hours:</h3>
-            <p><span class="day">Monday:</span> 7:00AM - 5:30PM</p>
-            <p><span class="day">Tuesday:</span> 7:00AM - 5:30PM</p>
-            <p><span class="day">Wednesday:</span> 7:00AM - 5:30PM</p>
-            <p><span class="day">Thursday:</span> 7:00AM - 5:30PM</p>
-            <p><span class="day">Friday:</span> 7:00AM - 5:30PM</p>
+            <h3 data-translate="business-hours"></h3>
+            <p><span class="day" data-translate="monday"></span> 7:00AM - 5:30PM</p>
+            <p><span class="day" data-translate="tuesday"></span> 7:00AM - 5:30PM</p>
+            <p><span class="day" data-translate="wednesday"></span> 7:00AM - 5:30PM</p>
+            <p><span class="day" data-translate="thursday"></span> 7:00AM - 5:30PM</p>
+            <p><span class="day" data-translate="friday"></span> 7:00AM - 5:30PM</p>
             <p>
-              <span class="day">Saturday:</span>
-              <span class="closed">Closed</span>
+              <span class="day" data-translate="saturday"></span>
+              <span class="closed" data-translate="closed-label"></span>
             </p>
             <p>
-              <span class="day">Sunday:</span>
-              <span class="closed">Closed</span>
+              <span class="day" data-translate="sunday"></span>
+              <span class="closed" data-translate="closed-label"></span>
             </p>
           </div>
         </div>
