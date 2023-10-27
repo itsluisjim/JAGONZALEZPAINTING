@@ -43,7 +43,6 @@ function changeLanguage(language) {
   elements.forEach((element) => {
     const key = element.getAttribute("data-translate");
     if(key == "owner-message"){
-      // element.innerHTML = translations[key][language];
       element.textContent = "";
       element.appendChild(processTextWithBold(translations[key][language]))
       
@@ -91,7 +90,6 @@ function loadTranslations(callback) {
   fetch('content/content-translations.json')
     .then(response => response.json())
     .then(data => {
-      console.log(data)
       translations = data;
       callback();
     })
