@@ -360,7 +360,7 @@ body section#contact .contact-us-info .contact-left-side .business-hours span.cl
     justify-content: center;
     gap: 20px;
   }
-  section#contact .contact-us-info .TUIr4b {
+  section#contact .contact-us-info .contact-left-side ~ button {
     display: none;
   }
   section#contact .contact-right-side {
